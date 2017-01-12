@@ -3,8 +3,7 @@ import logging
 from twisted.internet import defer
 from twistedlilypad.Packets import PacketPlayerEvent
 
-from playtimetracker import LilypadFactory
-from playtimetracker.playtimetracker import PlayerNetworkActivityTracker
+from playtimetracker import LilypadFactory, PlayerNetworkActivityTracker
 
 
 class PlayerNetworkActivityListener(PlayerNetworkActivityTracker):
